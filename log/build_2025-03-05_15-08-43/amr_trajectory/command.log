@@ -1,2 +1,0 @@
-Invoking command in '/home/poonam/ros2_ws/src/build/amr_trajectory': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/poonam/ros2_ws/src/amr_trajectory -DCMAKE_INSTALL_PREFIX=/home/poonam/ros2_ws/src/install/amr_trajectory
-Invoked command in '/home/poonam/ros2_ws/src/build/amr_trajectory' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/poonam/ros2_ws/src/amr_trajectory -DCMAKE_INSTALL_PREFIX=/home/poonam/ros2_ws/src/install/amr_trajectory
