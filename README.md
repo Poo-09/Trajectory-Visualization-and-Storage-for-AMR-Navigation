@@ -103,32 +103,5 @@ source install/setup.bash
 - RViz visualization of the robot's trajectory
 - Ability to save and reload trajectory data
 
-## Pseudocode for Key Functionalities
-
-### Trajectory Collection and Publishing
-```cpp
-Subscribe to /odom topic
-Initialize empty trajectory list
-For each incoming odometry message:
-    Extract robot position
-    Append position to trajectory list
-    Publish trajectory as MarkerArray to RViz
-```
-
-### Saving Trajectory Data
-```cpp
-Receive filename and duration from service request
-Extract trajectory data within specified duration
-Save data in requested format (CSV, JSON, YAML)
-Return success status to the client
-```
-
-### Reading and Publishing Saved Trajectory
-```cpp
-Open trajectory file
-Read and parse trajectory data
-Transform trajectory points to 'odom' frame
-Publish transformed trajectory as MarkerArray
-```
 
 
