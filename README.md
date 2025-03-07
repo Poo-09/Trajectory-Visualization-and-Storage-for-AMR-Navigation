@@ -131,24 +131,4 @@ Transform trajectory points to 'odom' frame
 Publish transformed trajectory as MarkerArray
 ```
 
-## Submission
-- Record a video demonstrating:
-  1. The robot moving and generating trajectory.
-  2. Saving the trajectory data.
-  3. Loading and visualizing the saved trajectory.
-- Send the **ROS2 package** and **recording** to the provided email address within **48 hours**.
-
-## Additional Points for Optimization
-- Design nodes in a modular fashion for easy integration.
-- Optimize trajectory collection, storage, and visualization.
-- Use Object-Oriented Programming (OOP) principles with separate header and source files.
-- Avoid hardcoded file paths and topic names to ensure flexibility.
-- Provide clear documentation with comments in the source code and README file.
-- Follow ROS2 and C++ coding guidelines for readability and maintainability.
-
-## Additional Notes
-- Ensure that all dependencies are correctly installed before running the package.
-- If facing issues with Gazebo simulation, check if `gazebo_ros_pkgs` is installed and sourced properly.
-
-This README file provides a comprehensive guide to setting up, running, and submitting the project.
 
