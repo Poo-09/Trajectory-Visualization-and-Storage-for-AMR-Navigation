@@ -1,0 +1,4 @@
+# Request
+string filename    # Name (and optionally path) of the file to save
+float64 duration   # Time duration (in seconds) for which to filter trajectory data
+

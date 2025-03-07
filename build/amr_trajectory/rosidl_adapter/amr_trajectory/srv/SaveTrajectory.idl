@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from amr_trajectory/srv/SaveTrajectory.srv
+// generated code does not contain a copyright notice
+
+
+module amr_trajectory {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct SaveTrajectory_Request {
+      @verbatim (language="comment", text=
+        "Name (and optionally path) of the file to save")
+      string filename;
+
+      @verbatim (language="comment", text=
+        "Time duration (in seconds) for which to filter trajectory data")
+      double duration;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct SaveTrajectory_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};
