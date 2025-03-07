@@ -1,6 +1,0 @@
-{
-  "package_name": "amr_trajectory",
-  "non_idl_tuples": [
-    "/home/poonam/ros2_ws/src/amr_trajectory:srv/SaveTrajectory.srv"
-  ]
-}
